@@ -5,3 +5,4 @@ def square_array(numbers)
     new_array.unshift(item ** 2)
     puts new_array
 end
+end
