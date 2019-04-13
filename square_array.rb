@@ -1,8 +1,9 @@
 
-def square_array(numbers)
     new_array = []
+
+def square_array(numbers)
     numbers.each do |item| 
     new_array.unshift(item ** 2)
-    puts new_array
 end
+  return new_array
 end
